@@ -1,1 +1,1 @@
-from . import architectures, eikonal, modules, state, training
+from . import architectures,  modules, state, training #eikonal,

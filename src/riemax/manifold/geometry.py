@@ -19,7 +19,7 @@ def pullback[**P, T](f: tp.Callable[P, T], fn_transformation: tp.Callable[[jax.A
     (\iota^\ast f)(x) = f(\iota(x))
     $$
 
-    **Example:**
+    **Example:**<<<<<
 
     One notable example is computing the Euclidean distance $d_E(p, q) = \lVert p - q \rVert_2$ between two points on
     the manifold, we can use the pullback to do this.
